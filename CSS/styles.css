@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --bg-gray: rgb(174, 152, 152);
-    --text-gray: #a88080; 
-    --color-primary: #051058;
+     --color-primary: #d17b0a;
     --white: #fff;
-    --text-light-gray: #aaa; 
-    --star-yellow: #ffbb3a; 
 }
 
 * {
-    margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans' , sans-serif;
-
+    font-family: "open sans", sans-serif;
 }
 
+html, body {
+    background-color:rgb(255, 255, 255) ;
+}
+
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
 
 header {
     background-color: var(--color-primary); 
@@ -23,7 +26,6 @@ header {
     height: 60px;
     display: flex;
     align-items: center;
-
 }
 
 nav {
@@ -35,40 +37,28 @@ nav {
 
 nav h1 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 7000;
 
 }
 nav a {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
 
 }
 
-a, a:hover {
-    text-decoration: none;
-    color: unset;
-}
-
-
-
 .dsmovie-card img {
-    width: 800px; 
-    width: 1000px; 
-    align-items: center;
+   align-items: center;
    flex-direction: column;
    width: 95vw; /* view width*/
-    height: 85vh; /* view height*/
-
-
+   height: 85vh; /* view height*/
+   margin: 10px 10px 20px 20px;
+   
 }
-
-
-
 
 .dsmovie-pagination-container {
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     display: flex;
     justify-content: center;
+  
 }
-
 
