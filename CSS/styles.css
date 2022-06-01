@@ -14,7 +14,6 @@ html, body {
     background-color:rgb(255, 255, 255) ;
 }
 
-
 a, a:hover {
     text-decoration: none;
     color: unset;
@@ -32,33 +31,52 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 nav h1 {
     font-size: 24px;
     font-weight: 7000;
-
 }
+
 nav a {
     font-size: 13px;
     font-weight: 400;
+}
 
+nav h2 {
+    font-size: 12px;
+    font-weight: 7000;
 }
 
 .dsmovie-card img {
    align-items: center;
-   flex-direction: column;
-   width: 95vw; /* view width*/
-   height: 85vh; /* view height*/
-   margin: 10px 10px 20px 20px;
+   flex-direction: columnr;
+   width: 80vw; /* view width*/
+   height: 82vh; /* view height*/
+   margin: 10px 10px 20px 20px; 
    
 }
 
 .dsmovie-pagination-container {
-    padding: 10px 10px 10px 10px;
-    display: flex;
-    justify-content: center;
-  
+     display: blockc;
+     margin: 0px auto;
 }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
 
